@@ -393,7 +393,19 @@ body {
     display: flex;
     align-items: ;
     flex-wrap: wrap;
+    width: 70%;
+margin: auto;
 }
+@media (max-width: 950px) {
+  .post-feed {
+      display: flex;
+      align-items: ;
+      flex-wrap: wrap;
+      width: 100%;
+  margin: auto;
+  }
+}
+
 
 .post-card {
     position: relative;

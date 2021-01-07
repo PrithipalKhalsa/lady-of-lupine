@@ -32,8 +32,11 @@ const Layout = props => {
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>About</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
+              <li className="nav-contact" role="menuitem">
+                <Link to={`/contact`}>Contact</Link>
+              </li>
+              <li className="nav-contact" role="menuitem">
+                <a href="http://etsy.com">Etsy</a>
               </li>
             </ul>
           </nav>
@@ -53,21 +56,13 @@ const Layout = props => {
                 Facebook
               </a>
               <a
-                href="https://twitter.com"
+                href="https://instagram.com"
                 title="Twitter"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Twitter
+                Instagram
               </a>
-              <Link
-                to={`/rss.xml`}
-                title="RSS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RSS
-              </Link>
             </div>
           </div>
         </div>

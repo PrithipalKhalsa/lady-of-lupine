@@ -13,4 +13,3 @@ description: I have one pug and one Czechoslovakian dog called Prazsky krysarik.
 ![Cute dog](./charles-deluvio-540420-unsplash.jpg)
 
 ![Cute dog](./charles-deluvio-547196-unsplash.jpg)
-

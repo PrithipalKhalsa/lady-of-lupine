@@ -4,12 +4,18 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:400,400i,600,700,700i,800&display=swap');
 
 :root {
+    --color-alto: #dadedd;
+    --color-jade: #4f7678;
+    --color-desert: #9e5723;
+    --color-tan: #b6a06e;
+    --color-brown: #6b5524;
+    --color-grey: #393536;
 
     /* Colours */
-    --color-primary: #3eb0ef;
+    --color-primary: #b6a06e;
     --color-base: #131313;
     --color-border: #ddd;
-    --color-bg: #f8f8f8;
+    --color-bg: var(--color-alto);
 
     /* Fonts */
     --font-sans-serif: 'Muli', sans-serif;

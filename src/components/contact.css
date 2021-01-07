@@ -1,0 +1,51 @@
+@import "../utils/css/vars.css";
+
+h2.title{
+  text-align: center;
+}
+section.contact-block {
+    margin: 5% auto;
+    width: 70%;
+}
+.contact-block form{
+  width: 70%;
+  margin:auto;
+}
+.contact-wrapper::after {
+  content: " ";
+  background: var(--color-jade);
+border-radius: 3px;
+border-top: 10px solid var(--color-desert);
+
+position: absolute;
+z-index: -1;
+}
+.contact-wrapper::after {
+    top: -7px;
+    left: 4px;
+    right: -16px;
+    bottom: 6px;
+}
+
+.contact-wrapper {
+    position: relative;
+    margin:4%;
+}
+.contact-wrapper textarea,
+.contact-wrapper input {
+  box-shadow: -1px 1px 1px 1px rgb(69, 69, 69);
+
+}
+
+
+
+@media screen and (max-width: 950px) {
+  section.contact-block {
+      margin: 10% auto;
+      width: 100%;
+  }
+   .contact-block form {
+      margin: 10% auto;
+      width: 100%;
+  }
+}

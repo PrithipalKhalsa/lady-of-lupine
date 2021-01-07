@@ -2,6 +2,8 @@ import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
+import BioBlock from "../components/bioBlock"
+import ContactBlock from "../components/contactBlock"
 import SEO from "../components/seo"
 import PostCard from "../components/postCard"
 
@@ -20,7 +22,7 @@ const BlogIndex = ({ data }, location) => {
         title="All posts"
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
-      {/* <Bio /> */}
+       <BioBlock/>
       {data.site.siteMetadata.description && (
         <header className="page-head">
           <h2 className="page-head-title">
@@ -41,6 +43,8 @@ const BlogIndex = ({ data }, location) => {
           )
         })}
       </div>
+      <ContactBlock/>
+
     </Layout>
   )
 }

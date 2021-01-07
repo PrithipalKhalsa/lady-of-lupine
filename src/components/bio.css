@@ -1,0 +1,72 @@
+@import "../utils/css/vars.css";
+
+h2.title{
+  text-align: center;
+}
+img.bio-pic {
+    width: 400px;
+}
+.bio-pic-wrapper{
+  position: relative;
+}
+.bio-pic-wrapper::after {
+  content: "";
+  border-bottom: 10px solid var(--color-desert);
+  border-radius: 6px;
+  position: absolute;
+  z-index: -1;
+  background: var(--color-jade);
+}
+.bio-pic-wrapper::after {
+    top: -10px;
+    left: 41px;
+    right: -9px;
+    bottom: 30px;
+
+}
+
+section.bio-block {
+    /* display: flex; */
+    width: 70%;
+    margin: 7% auto;
+    }
+.color-block {
+    /* background: aquamarine; */
+}
+
+.bio-text{
+  border: solid;
+  display: inline-block;
+  height: 100%;
+  margin: auto 5%;
+  padding: 2%;
+  color:var(--color-alto)
+}
+.bio-button{
+  text-align: center;
+  margin: 3%;
+}
+       .bio-pic-wrapper {
+       display: flex ;
+     }
+   @media screen and (max-width: 950px) {
+     .bio-pic-wrapper {
+     display: block ;
+
+     }
+     .bio-text {
+       color:black;
+     }
+     .bio-text{
+       margin: 5% auto 5%;
+
+     }
+     .bio-pic-wrapper::after {
+       bottom: 200px;
+    }
+    section.bio-block {
+        /* display: flex; */
+        width: 100%;
+        margin: 5% auto;
+        }
+   }
